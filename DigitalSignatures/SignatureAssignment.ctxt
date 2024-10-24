@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=SignatureAssignment
+comment1.params=filename
+comment1.target=byte[]\ loadFile(java.lang.String)
+comment1.text=\r\n\ Loads\ filename\ into\ a\ byte\ array.\r\n\ @param\ filename\ Name\ of\ file\ to\ be\ loaded\r\n\ @return\ null\ on\ failure,\ or\ byte\ array\ on\ success\r\n
+comment2.params=filename
+comment2.target=java.security.PublicKey\ loadKey(java.lang.String)
+comment2.text=\r\n\ Loads\ public\ key\ from\ filename\r\n\ @param\ filename\ Name\ of\ file\ to\ be\ loaded\r\n\ @return\ null\ on\ failure,\ or\ a\ PublicKey\ on\ success\r\n
+comment3.params=keyFile\ sigFile\ pdfFile
+comment3.target=boolean\ check(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ Check\ if\ pdfFile\ was\ signed\ by\ keyFile,\ resulting\ in\ sigFile\r\n\ @param\ keyFile\ File\ containing\ the\ DER-encoded\ key\r\n\ @param\ sigFile\ File\ containing\ the\ signature\r\n\ @param\ pdfFile\ File\ containing\ pdf\r\n\ @return\ true\ of\ everything\ matches,\ false\ otherwise.\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
